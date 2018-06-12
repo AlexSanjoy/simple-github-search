@@ -41,5 +41,7 @@ export default class User extends Component {
 User.propTypes = {
 	name: PropTypes.string.isRequired,
 	handleUserFetch: PropTypes.func.isRequired,
+	url: PropTypes.string.isRequired,
+	avatar: PropTypes.string,
 	error: PropTypes.string.isRequired
 }
