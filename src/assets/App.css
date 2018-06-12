@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+
+}
+
+span {
+  color: rgb(37, 208, 255);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(37, 208, 255);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  border-radius: 50%;
+  max-width: 150px;
+  margin-top: 30px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 130px;
+  margin: 50px auto;
+  display: block;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
